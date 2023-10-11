@@ -1,2 +1,3 @@
 names_list = ["Chris", "Eduardo", "Maria", "Gabriel", "Lucas"]
-print(names_list[0])
+print(len(names_list))
+print(names_list[2])
