@@ -3,10 +3,11 @@
 termos da sequência de Fibonacci em uma lista. N é definido pelo usuário. Ao
 encontrar os termos, imprimir a lista e finalizar a função.
 '''
-def fib(value):
-    print(f"oi {value}")
-    print(type(value))
-    
-    
-fib(float(123))
-fib(123)
+def fib(n):
+    a, b = 0, 1
+    for _ in range(n):
+        print(a)
+        a, b = b, a + b
+
+if __name__ == "__main__":
+    fib(int(10))
